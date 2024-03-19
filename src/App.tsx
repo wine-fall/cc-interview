@@ -5,7 +5,7 @@ function App() {
         <title>cc interview</title>
       </header>
 
-      {/* TODO: */}
+      <main>{/* TODO: */}</main>
     </div>
   );
 }
