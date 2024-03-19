@@ -4,8 +4,6 @@ function App() {
       <header className="App-header">
         <title>cc interview</title>
       </header>
-
-      <main>{/* TODO: */}</main>
     </div>
   );
 }
