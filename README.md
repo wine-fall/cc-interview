@@ -1,72 +1,37 @@
-# Getting Started with Create React App
+# React Wordle
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Try it
 
-## Available Scripts
+[Wordle - A daily word game](https://www.nytimes.com/games/wordle/index.html)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## **Question**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Create a Wordle clone using React.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Rules
 
-### `npm test`
+1. Guess the Wordle in 6 tries.
+2. Each guess must be a valid 5-letter word.
+3. The color of the tiles will change to show how close your guess was to the word.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/11f45f0d-924f-4287-afb2-4c102f1e409f/Untitled.png)
 
-### `npm run build`
+**W** is in the word and in the correct spot.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/58c323c2-f4d8-4d89-845e-de6b657dea88/Untitled.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**I** is in the word but in the wrong spot.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5b3f2b0e-9100-4188-af12-58dff23351af/Untitled.png)
 
-### `npm run eject`
+**U** is not in the word in any spot.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Winning Result
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/547b3c72-9cb5-4925-931a-174afc924d70/Untitled.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# cc-interview
-# cc-interview
+## Start coding
