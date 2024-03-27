@@ -2,7 +2,7 @@
 
 ---
 
-## **Questions**
+## **Questions (Required)**
 
 1. [Wordle](https://cyberconnect.notion.site/React-Wordle-4ba61b07f31c47dc87544a78c0d81aa6)
    Implement Wordle
@@ -15,7 +15,9 @@
 
    **Fork those CodeSandbox link and start coding...**
 
-## **Optional**
+   tips: no need to completely reproduce it 1:1.
+
+## **Question (Optional)**
 
 [Wagmi] (https://wagmi.sh/)
 
