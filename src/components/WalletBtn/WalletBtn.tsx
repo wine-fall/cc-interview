@@ -1,34 +1,22 @@
 "use client"
-
 import { useAccount, useConnect, useDisconnect } from "wagmi";
 import styles from './walletbtn.module.css'
 import { useEffect, useState } from "react";
-
-
-export function useIsMounted(): boolean {
-  const [isMounted, setIsMounted] = useState<boolean>(false)
-
-  useEffect(() => {
-    setIsMounted(true)
-  }, [])
-
-  return isMounted
-}
+import { Account } from "../Account/Account";
 
 export default function WalletBtn() {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+      setMounted(true)
+  }, [])
+
   const { isConnected } = useAccount();
   const { connect, connectors, error } = useConnect();
   const { disconnect } = useDisconnect();
 
-  const isMounted = useIsMounted()
-
-  if (!isMounted) {
-    return null;
-  }
-
-  return isConnected 
+  return !mounted ? null : isConnected 
     ? (
-      <button onClick={() => disconnect()}>Disconnect Wallet</button>
+      <Account />
     ) : (
     <div>
       {connectors.map((connector) => (

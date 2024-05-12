@@ -75,3 +75,16 @@ a {
     color-scheme: dark;
   }
 }
+
+.avatar {
+  background-color: #1b1b1f;
+  border-radius: 100%;
+  height: 38px;
+  width: 38px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

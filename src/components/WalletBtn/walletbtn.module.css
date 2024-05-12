@@ -1,3 +1,22 @@
-.walletBtn:not(:last-child) {
+.walletBtn {
     margin-right: 6px;
+    background-color: #646cff;
+    border-color: #747bff;
+    border-radius: 20px;
+    border: 1px solid #747bff;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 20px;
+    transition: background-color 0.2s;
+}
+
+.walletBtn:hover {
+    background-color: #747bff;
+  }
+.walletBtn:disabled {
+    opacity: 0.5;
+    pointer-events: none;
 }
