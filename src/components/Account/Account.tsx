@@ -1,4 +1,5 @@
 import { useAccount, useDisconnect, useEnsAvatar, useEnsName } from 'wagmi';
+import { SignInButton } from '../SignInBtn/SignInBtn';
 
 const formatAddress = (address?: string) => {
     if (!address) return null;
@@ -36,6 +37,7 @@ export function Account() {
       <button className="button" onClick={() => disconnect()} type="button">
         Disconnect
       </button>
+      <SignInButton/>
     </div>
   );
 }
